@@ -30,4 +30,14 @@ class RegionController
         $resultat = $sql->fetchAll(PDO::FETCH_ASSOC);
         return $resultat;
     }
+    public function deleteRegion()
+    {
+        try {
+            $sql = $this->dbc->prepare("DELETE FROM regions WHERE idRegion=4");
+            $sql->execute();
+            header("Location:../?route=Region&module=list");
+        } catch (PDOException $e) {
+            echo "Error" . $e->getMessage();
+        }
+    }
 }

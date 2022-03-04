@@ -1,6 +1,7 @@
 <?php
 require_once "controller/DataBaseHelper.php";
 require_once "controller/RegionController.php";
+require_once "controller/Formulaire.php";
 $regionController = new RegionController();
 
 
