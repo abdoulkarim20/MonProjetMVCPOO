@@ -19,7 +19,7 @@ $regions = $regionController->getAll();
                 <tr>
                     <td><?= $region['idRegion']; ?></td>
                     <td><?= $region['nomRegion']; ?></td>
-                    <td class="text-center"><a href="?route=Region&module=edit&idRegion=<?= $region['idRegion']; ?>">Modifier</a></td>
+                    <td class="text-center"><a href="?route=Region&module=edit&idRegion=<?= $region['idRegion']; ?>"><i class="bi bi-pencil-square" style="color: primary; font-size:1.5rem;"></i></a></td>
                     <td class="text-center"><a href=""><i class="bi bi-trash3" style="color: #ce0033; font-size:1.5rem;"></i></a></td>
                 </tr>
             <?php  } ?>

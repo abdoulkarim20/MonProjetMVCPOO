@@ -1,1 +1,1 @@
-<h1>Je suis la page d'accueil</h1>
+<h1>Je suis la page d'accueil accessible que si vous etes connecter</h1>
