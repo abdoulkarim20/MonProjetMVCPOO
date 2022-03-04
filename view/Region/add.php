@@ -7,7 +7,7 @@ $form = new Formulaire();
 
     </div>
     <div class="col-5">
-        <h1 class="text-center">Ajouter une ragion</h1>
+        <h1 class="text-center">Ajout de region</h1>
         <form method="POST" action="../?route=Accueil.php">
             <?php
             $form->divForm("Nom de la region", "text", "", "nomRegion");
