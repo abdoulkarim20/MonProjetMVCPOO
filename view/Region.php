@@ -1,1 +1,0 @@
-<h1>Je suis la page des regions</h1>

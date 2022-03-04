@@ -1,8 +1,8 @@
 <?php
 if (!empty($_GET['route'])) {
     switch ($_GET['route']) {
-        case 'Employer':
-            require_once "view/Employer/index.php";
+        case 'Region':
+            require_once "view/Region/index.php";
             break;
     }
 }

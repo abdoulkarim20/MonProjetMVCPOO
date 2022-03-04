@@ -14,11 +14,11 @@
                 </li> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Gestion Employer
+                        Gestion Region
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="?route=Employer&module=add">ajouter</a></li>
-                        <li><a class="dropdown-item" href="?route=Employer&module=list">lister</a></li>
+                        <li><a class="dropdown-item" href="?route=Region&module=add">ajouter</a></li>
+                        <li><a class="dropdown-item" href="?route=Region&module=list">lister</a></li>
                     </ul>
                 </li>
                 <!-- <li class="nav-item">
